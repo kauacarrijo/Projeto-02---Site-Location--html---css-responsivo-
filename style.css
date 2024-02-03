@@ -1,0 +1,133 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 179px 42px;
+}
+
+header a {
+    margin-right: 32px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    color: #17233D;
+}
+
+header button {
+    width: 124px;
+    height: 51px;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+section h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    width: 582px;
+    color: #161A49;
+}
+
+section p {
+    width: 493px;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+section a {
+    color: #6FBF44;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+a:active {
+    opacity: .5;
+}
+
+@media screen and (max-width: 1390px){
+    header {
+        margin: 0;
+    }
+    header a {
+        display: none;
+    }
+    header button {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        display: block;
+        margin: 17px 15px 0 auto;
+    }
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    img {
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin: 59px auto 18px auto;
+    }
+    section {
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+    section h1{
+        width: 278px;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 76px auto 0 auto;
+    }
+    section p {
+        width: 304px;
+        font-size: 18px;
+        line-height: 33px;
+        margin: 29px auto 26px auto;
+    }
+    
+    section a {
+        margin: auto;
+    }
+}
